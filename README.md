@@ -40,7 +40,7 @@ This PoC shows how a small modification—**letting users choose how personalize
 
 ## 📂 Project Structure
 tiktok_poc/
-│
+│  
 ├── synthetic_tiktok_dataset.csv
 ├── recommender.py
 ├── streamlit_app.py
