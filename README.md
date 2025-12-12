@@ -39,4 +39,23 @@ This PoC shows how a small modification—**letting users choose how personalize
 ---
 
 ## 📂 Project Structure
+tiktok_poc/
+│
+├── synthetic_tiktok_dataset.csv
+├── recommender.py
+├── streamlit_app.py
+├── rec_high_personalization.csv
+├── rec_balanced.csv
+├── rec_explore.csv
+│
+├── hp_distribution.png
+├── balanced_distribution.png
+├── explore_distribution.png
+│
+├── PoC_Paper.pdf
+└── README.md
 
+### **1. Install Dependencies**
+If using Colab:
+```python
+!pip install pandas numpy matplotlib reportlab streamlit
